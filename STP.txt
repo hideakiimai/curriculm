@@ -6,7 +6,7 @@ Switch１　F0/1: DP
 Switch1      F0/2:RP
 
 Switch2      F0/1:RP
-Switch2      F0/2:BP
+Switch2      F0/2:DP
 
 Switch3    E0/1:DP
 Switch3    E0/1:DP
@@ -35,5 +35,5 @@ F0/2からは100+100のため、F0/1の方が近いため
 F0/1がRPとなる、
 それに伴い、switch1のF0/1はRPの対向のためDPとなる。
 
-そして残った、switch2のF0/2の方がルートブリッジに近いためDPとなる
-最後にswitch4のE0/1はBPとなる。
+そして残った、switch4のE0/1の方がブリッジIDの方が小さいためDPとなる
+最後にswitch2のF0/2はBPとなる。
